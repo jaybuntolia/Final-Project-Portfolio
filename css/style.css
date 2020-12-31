@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color:#f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url("/Users/jayendra/Downloads/Final Project Portfolio/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding:0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin:30px;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+.scroll{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    font-family: RoadTest;
+    columns: #000000;
+    font-size: 22px;
+}
+.active{
+    font-weight: bold;
+    color: #2d2a2a;
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,-42%);
+}
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin:0px 10px;
+}
+.hire-btn{
+    border: 2px solid #373636;
+    color: #373636;
+}
+.down-cv{
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none;
+}
+button:active{
+    transform: scale(1.1);
+}
+.model{
+    height: 460px;
+    position: absolute;
+    bottom: 130px;
+    left: 80%;
+    transform: translateX(-70%);
+    border-radius: 10%;
+}
+.about-container{
+    width: 60%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: -7% auto 20px auto; 
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-text{
+    width: 350px;
+}
+.about-text p:nth-child(1){
+    color: #403e3e;
+    font-family: myriad pro;
+    font-size: 23px;
+    line-height: 0px;
+}
+.about-text p:nth-child(2){
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 16px;
+}
+.about-text p:nth-child(3){
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 16px;
+}
+.about-text button{
+    width: 120px;
+    height: 40px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-family: calibri;
+    background-color: #262525;
+}
+.experience{
+    height: 1500px;
+    background-color: #FFFFFF;
+    padding: 2% 20% 0px 10%;
+} 
+
+.experience-text{
+    width: 1000px;
+    margin: 50px 0px;
+    left: 30%;
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 15px;
+   
+}
+.microsoft{
+    width:150px;
+    height:110px;
+    position: absolute;
+    left: 0.5%;
+}
+.goldman{
+    width:100px;
+    height:100px;
+    position: absolute;
+    left: 0.5%;
+}
+
+.column {
+    float: left;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.box{
+    background: ghostwhite;  
+    margin: 10px;
+    text-align: left;
+}
+.color-strip{
+    background-color: #373636;
+    color: #ffffff;
+    width: 1000px;
+    height: 50px;
+    text-align: left;
+    
+}
+.container{
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    margin: 40px auto;
+    margin-right: 40px;
+}
+.container .box{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(350px - 30px);
+    background: #000000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .box2{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(450px - 30px);
+    background: #eeeeee;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(350px - 30px);
+    height: calc(350px - 30px);
+    background-image: url("/Users/jayendra/Downloads/Final Project Portfolio/images/logo(5).png");
+    background-size: cover;
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.container .box .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+.container .box:hover .icon .fa{
+    font-size: 40px;
+}
+
+.container .box .content{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.container .box:hover .content{
+    top: 100px;
+    opacity: 1;
+}
+.container .box .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+.container .box2 .content h3{
+    margin: 0px 0 0px;
+    padding: 20px;
+    color: #373636;
+    font-size: 24px;
+    text-align: left;
+}
+.container .box2 .content h2{
+    margin: 10px 0 10px;
+    padding: 20px;
+    color: #373636;
+    font-size: 28px;
+    text-align: left;
+}
+.container .box2 .content p{
+    margin: 10px;
+    padding: 5px;
+    color: #373636;
+    text-align: left;
+    font-size: 18px;
+}
+.container .box .content p{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+.container .box:nth-child(1) .icon{
+    background-image: url("/Users/jayendra/Downloads/Final Project Portfolio/images/pokedex.jpeg");
+}
+.container .box:nth-child(1){
+    background: #9b9b9b;
+}
+.container .box:nth-child(2) .icon{
+    background-image: url("/Users/jayendra/Downloads/Final Project Portfolio/images/fiftygram.jpg");
+}
+.container .box:nth-child(2){
+    background:  #9b9b9b;
+}
+.container .box:nth-child(3) .icon{
+    background-image: url("/Users/jayendra/Downloads/Final Project Portfolio/images/finance.png");
+}
+.container .box:nth-child(3){
+    background: #9b9b9b;
+}
+.container .box:nth-child(4) .icon{
+    background-image: url("/Users/jayendra/Downloads/Final Project Portfolio/images/pong.jpg");
+}
+.container .box:nth-child(4){
+    background: #9b9b9b;
+}
+.container .box:nth-child(5) .icon{
+    background-image: url("/Users/jayendra/Downloads/Final Project Portfolio/images/C.jpg");
+}
+.container .box:nth-child(5){
+    background: #9b9b9b;
+}
+.container .box:nth-child(6) .icon{
+    background-image: url("/Users/jayendra/Downloads/Final Project Portfolio/images/recover.png");
+}
+.container .box:nth-child(6){
+    background: #9b9b9b;
+}
+.certificates-text{
+    font-size: 20px;
+    font-family: myriad pro regular;
+    color: #403e3e;
+}
+a {
+    color: #020202;
+}
+a:hover, a:active, a:focus {
+    color:rgb(133, 133, 133);
+}
+
+.contact{
+    width: 100%;
+    height: 230px;
+    background-color: #373636;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact p{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+}
+.social-icons a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 50px;
+    border-radius: 30%;
+}
+.social-icons{
+    display: flex;
+}
+.social-icons i{
+    color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+    color: #FFFFFF;
+}
